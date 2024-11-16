@@ -1,7 +1,12 @@
 # Fake Review Detection
 
 ## **Problem Statement**
-(Your problem statement here)
+The exponential growth of e-commerce and online services has made user-generated reviews a critical factor in consumer decision-making. However, fake or deceptive reviews—intentionally crafted to mislead—are becoming increasingly prevalent. These fraudulent reviews can:
+
+- Distort the perceived reputation of businesses, products, or services.
+- Lead to unfair consumer decisions and financial repercussions.
+-Damage the credibility of review platforms.
+Manual identification of fake reviews is impractical at scale due to the sheer volume of data, necessitating the use of automated methods.
 
 ## **Features**
 - List the key features of your project.
@@ -18,16 +23,11 @@
   - Scikit-learn
   - NLTK or spaCy
   - TensorFlow or PyTorch (if applicable)
+  - seaborn
 - Tools: Jupyter Notebook, Git
 
 ## **Dataset Information**
-- Source: (Mention where the dataset is from, e.g., Kaggle, Yelp, Amazon)
-- Description: (Briefly describe the dataset structure and key attributes)
-- Example:
-  - **Columns**: Review Text, Rating, Reviewer ID, Timestamp, Verified Purchase
-  - **Size**: 50,000 labeled reviews (fake/genuine)
+- Source: https://www.kaggle.com/datasets/mexwell/fake-reviews-dataset (Kaggle)
+- Description: The generated fake reviews dataset, containing 20k fake reviews and 20k real product reviews. OR = Original reviews (presumably human created and authentic); CG = Computer-generated fake reviews.
 
-## **How to Run**
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/fake_review_detection.git
+
