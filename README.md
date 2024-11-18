@@ -30,4 +30,7 @@ Manual identification of fake reviews is impractical at scale due to the sheer v
 - Source: https://www.kaggle.com/datasets/mexwell/fake-reviews-dataset (Kaggle)
 - Description: The generated fake reviews dataset, containing 20k fake reviews and 20k real product reviews. OR = Original reviews (presumably human created and authentic); CG = Computer-generated fake reviews.
 
+## **Output**
+- Prints 0 for CG(computer generated)
+- Prints 1 for OG(Original)
 
