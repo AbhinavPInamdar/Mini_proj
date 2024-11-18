@@ -22,7 +22,7 @@ Manual identification of fake reviews is impractical at scale due to the sheer v
   - Pandas
   - Scikit-learn
   - LSTM
-  - TensorFlow or PyTorch (if applicable)
+  - TensorFlow.keras
   - seaborn
 - Tools: Jupyter Notebook, Git
 
