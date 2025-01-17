@@ -1,0 +1,15 @@
+Test Loss: 0.2271
+Test Accuracy: 0.9123
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.89      0.91      4055
+           1       0.89      0.94      0.91      4029
+
+    accuracy                           0.91      8084
+   macro avg       0.91      0.91      0.91      8084
+weighted avg       0.91      0.91      0.91      8084
+
+Class Weights:
+{0: np.float64(1.0002474634991338), 1: np.float64(0.9997526589166461)}
