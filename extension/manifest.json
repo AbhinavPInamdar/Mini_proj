@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Fake Review Detector",
+    "version": "1.0",
+    "description": "Classifies reviews on e-commerce sites as fake or genuine.",
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Detect Fake Reviews"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.amazon.com/*"], 
+        "js": ["content.js"]
+      }
+    ],
+    "host_permissions": ["http://127.0.0.1:8000/*"]
+  }
+  
