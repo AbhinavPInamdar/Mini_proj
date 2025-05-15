@@ -46,6 +46,32 @@ This extension enhances online shopping by detecting potentially fake reviews us
 
 ---
 
+```mermaid
+graph TD
+    subgraph User Browser
+        A1[User visits product page ,Amazon / Flipkart]
+        A2[Chrome Extension]
+        A3[Content Script scrapes reviews]
+        A1 --> A2 --> A3
+    end
+
+    A3 --> B1[REST API Request, Review Data]
+
+    subgraph Backend [Cloud Backend AWS ECS]
+        B1 --> B2[Flask API Server]
+        B2 --> B3[Bi-LSTM ML Model]
+        B3 --> B4[Prediction: Real or Fake]
+    end
+
+    B4 --> C1[API Response with Classification]
+
+    subgraph Extension UI
+        C1 --> D1[Popup UI Displays Classification]
+    end
+
+```
+
+
 
 ##  Future Improvements
 
