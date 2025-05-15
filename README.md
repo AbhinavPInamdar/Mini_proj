@@ -58,5 +58,9 @@ This extension enhances online shopping by detecting potentially fake reviews us
 - [ ] **Track user feedback for active retraining**  
   Allow users to confirm or correct predictions, and feed that data into a retraining pipeline to continuously improve the model.
 
+##  License
+
+This project is licensed under the [MIT License](./LICENSE).
+
 
 
