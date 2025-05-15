@@ -21,7 +21,7 @@ This extension enhances online shopping by detecting potentially fake reviews us
 
 | Layer          | Tech                                                  |
 |----------------|-------------------------------------------------------|
-| Frontend       | TypeScript, React, Chrome Extension APIs              |
+| Frontend       | TypeScript, Chrome Extension APIs              |
 | ML Backend     | Python, Flask, TensorFlow, Bi-LSTM, Scikit-learn      |
 | Infrastructure | Docker, AWS ECS (Fargate)                             |
 | Communication  | REST API (JSON over HTTP)                             |
